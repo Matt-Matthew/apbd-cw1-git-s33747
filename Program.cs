@@ -4,6 +4,8 @@ int[] numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 StatisticsHelper.printNumbers(numbers);
 int count = StatisticsHelper.countEvenNumbers(numbers);
 Console.WriteLine("The number of even numbers is: " + count);
+double average = StatisticsHelper.CalculateAverage(numbers);
+Console.WriteLine("The average of the numbers is: " + average);
 public class StatisticsHelper
 {
     public static void printNumbers(int[] numbers)
@@ -26,6 +28,6 @@ public class StatisticsHelper
 
     public static double CalculateAverage(int[] values)
     {
-        
+        return values.Average();
     }
 }
