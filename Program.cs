@@ -44,6 +44,7 @@ public class StatisticsHelper
 
     public static int CalculateMin(int[] values)
     {
+        if (values.Length == 0) return 0;
         int min = values[0];
         for (int i = 0; i < values.Length; i++)
         {
