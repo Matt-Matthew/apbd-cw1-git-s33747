@@ -7,3 +7,5 @@ Fast-Forward nastepuje gdy galaz glowna nie poszla do przodu (commit) od momentu
 Merge Commit jest wtedy gdy na obu galeziach pojawily sie nowe commity i wtedy git tworzy nowy commit laczacy
 
 Merge zachowuje strukture rozgaleziona natomiast Rebase to jedna linia commitow
+
+Konflikt w Program.cs rozwiazalem recznie akceptujac obie zmiany w IDE Rider
