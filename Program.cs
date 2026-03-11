@@ -11,4 +11,14 @@ public class StatisticsHelper
             Console.WriteLine(numbers[i]);
         }
     }
+
+    public static int countEvenNumbers(int[] numbers)
+    {
+        int count = 0; 
+        for (int i = 0; i < numbers.Length; i++)
+        {
+            if (numbers[i] % 2 == 0) count++;
+        }
+        return count;
+    }
 }
