@@ -2,6 +2,8 @@
 Console.WriteLine("Hello, World!");
 int[] numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 StatisticsHelper.printNumbers(numbers);
+int count = StatisticsHelper.countEvenNumbers(numbers);
+Console.WriteLine("The number of even numbers is: " + count);
 public class StatisticsHelper
 {
     public static void printNumbers(int[] numbers)
