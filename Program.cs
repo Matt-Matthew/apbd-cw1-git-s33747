@@ -23,4 +23,9 @@ public class StatisticsHelper
         }
         return count;
     }
+
+    public static double CalculateAverage(int[] values)
+    {
+        
+    }
 }
