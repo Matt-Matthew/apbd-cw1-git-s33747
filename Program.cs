@@ -41,4 +41,15 @@ public class StatisticsHelper
 
         return max;
     }
+
+    public static int CalculateMin(int[] values)
+    {
+        int min = values[0];
+        for (int i = 0; i < values.Length; i++)
+        {
+            if(values[i] > min) min = values[i];
+        }
+
+        return min;
+    }
 }
