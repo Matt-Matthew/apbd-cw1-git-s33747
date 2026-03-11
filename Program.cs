@@ -8,6 +8,7 @@ double average = StatisticsHelper.CalculateAverage(numbers);
 Console.WriteLine("The average of the numbers is: " + average);
 int min = StatisticsHelper.CalculateMin(numbers);
 Console.WriteLine("The minimum of the numbers is: " + min);
+Console.WriteLine("Wersja z branchu conflict");
 public class StatisticsHelper
 {
     public static void printNumbers(int[] numbers)
